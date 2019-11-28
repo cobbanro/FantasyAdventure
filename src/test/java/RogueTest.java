@@ -3,7 +3,7 @@ import items.Weapon;
 import items.WeaponType;
 import org.junit.Before;
 import org.junit.Test;
-import players.Rogue;
+import players.fighters.Rogue;
 
 import static org.junit.Assert.assertEquals;
 
@@ -15,8 +15,9 @@ public class RogueTest {
 
     @Before
     public void before(){
-        rogue = new Rogue("Lewis", 5, WeaponType.DAGGER, 1);
         item = new Weapon(1, WeaponType.DAGGER, 2);
+        rogue = new Rogue("Lewis", 5,  (Weapon)item, 1);
+
     }
 
     @Test
@@ -31,7 +32,7 @@ public class RogueTest {
 
     @Test
     public void hasWeaponType(){
-        assertEquals(WeaponType.DAGGER, rogue.getWeaponType());
+        assertEquals(WeaponType.DAGGER, rogue.getWeapon().getWeaponType());
     }
 
     @Test

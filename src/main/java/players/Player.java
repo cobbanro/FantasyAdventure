@@ -1,6 +1,5 @@
 package players;
 
-import behaviours.IItems;
 import items.Item;
 
 

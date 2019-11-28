@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="725c5e73-14c0-4849-8f62-d4d642ea8205" name="Default Changelist" comment="" />
+    <list default="true" id="725c5e73-14c0-4849-8f62-d4d642ea8205" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/items/HealingTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/players/healers/Healer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/players/spelldudes/SpellDude.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/players/spelldudes/Warlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/players/spelldudes/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spell/Spell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WarlockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WeaponTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/IItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/ISpell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/items/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/fighters/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/fighters/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/fighters/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/fighters/Rogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RogueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RogueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/items/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/items/Weapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/Weapon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Dwarf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Fighter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Knight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Rogue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RogueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RogueTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +44,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -25,7 +55,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1UEySMVTS2a7YPxn9y6UYKr5JTR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="behaviours" />
     </key>
@@ -42,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RogueTest.canAddToInventory">
+  <component name="RunManager" selected="JUnit.WarlockTest.checkCastSpell">
     <configuration name="RogueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,16 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RogueTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyAdventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RogueTest" />
-      <option name="METHOD_NAME" value="hasName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RogueTest.hasWeaponType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,12 +109,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WarlockTest.checkCastSpell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WarlockTest" />
+      <option name="METHOD_NAME" value="checkCastSpell" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeaponTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WeaponTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RogueTest.canAddToInventory" />
+        <item itemvalue="JUnit.WarlockTest.checkCastSpell" />
+        <item itemvalue="JUnit.WeaponTest" />
         <item itemvalue="JUnit.RogueTest" />
         <item itemvalue="JUnit.RogueTest.hasWeaponType" />
-        <item itemvalue="JUnit.RogueTest.hasName" />
+        <item itemvalue="JUnit.RogueTest.canAddToInventory" />
       </list>
     </recent_temporary>
   </component>
@@ -103,5 +150,16 @@
       <updated>1574936047912</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
