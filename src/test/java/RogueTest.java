@@ -48,4 +48,9 @@ public class RogueTest {
         assertEquals(0, rogue.getInventory().size());
     }
 
+    @Test
+    public void canHitWithWeapon(){
+        assertEquals("Lewis has used a DAGGER and has hit for 2 points", rogue.inflictPain((Weapon)item));
+    }
+
 }

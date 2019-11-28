@@ -19,7 +19,7 @@ public class WarlockTest {
     @Test
     public void checkCastSpell(){
         warlock.learnSpell(spell);
-        assertEquals("I want that one", warlock.castSpell(spell));
+        assertEquals("Andy E casts I want that one and hit for 2", warlock.castSpell(spell));
     }
 
 
