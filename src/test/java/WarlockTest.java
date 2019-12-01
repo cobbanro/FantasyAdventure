@@ -13,14 +13,9 @@ public class WarlockTest {
     @Before
     public void before(){
         warlock = new Warlock("Andy E", 3);
-        spell = new Spell("I want that one", 2);
+        spell = new Spell("I want that one", 2, 2);
     }
 
-    @Test
-    public void checkCastSpell(){
-        warlock.learnSpell(spell);
-        assertEquals("Andy E casts I want that one and hit for 2", warlock.castSpell(spell));
-    }
 
 
 }

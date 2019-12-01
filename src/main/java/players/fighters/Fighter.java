@@ -9,9 +9,9 @@ import players.Player;
 
 import java.util.ArrayList;
 
-public abstract class Fighter extends Player implements IFight {
+public abstract class Fighter extends Player {
 
-    private Weapon weapon;
+    protected Weapon weapon;
 
     public Fighter(String name, int healthPoints, Weapon weapon){
         super(name, healthPoints);
@@ -22,9 +22,6 @@ public abstract class Fighter extends Player implements IFight {
         return weapon;
     }
 
-    public String inflictPain(Weapon weapon, Monster monster) {
-      return this.getName() + " has used a " + weapon.getWeaponType()
-              + " and has hit for " + weapon.getDamage() + " points";
 
-    }
+
 }

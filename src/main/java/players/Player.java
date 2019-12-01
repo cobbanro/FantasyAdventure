@@ -1,11 +1,12 @@
 package players;
 
+import behaviours.IFight;
 import items.Item;
 
 
 import java.util.ArrayList;
 
-public abstract class Player{
+public abstract class Player {
 
     private String name;
     protected int healthPoints;
@@ -40,4 +41,15 @@ public abstract class Player{
         inventory.remove(item);
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setHealthPoints(int healthPoints) {
+        this.healthPoints = healthPoints;
+    }
+
+    public void setInventory(ArrayList<Item> inventory) {
+        this.inventory = inventory;
+    }
 }

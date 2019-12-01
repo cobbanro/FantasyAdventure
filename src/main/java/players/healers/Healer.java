@@ -12,4 +12,8 @@ public class Healer extends Player {
         super(name, healthPoints);
     }
 
+    public void heal(Player player){
+        int updatedHealthPoints = player.getHealthPoints() + 2;
+        player.setHealthPoints(updatedHealthPoints);
+    }
 }

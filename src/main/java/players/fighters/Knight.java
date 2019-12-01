@@ -1,18 +1,40 @@
 package players.fighters;
 
+import behaviours.IFight;
 import items.Weapon;
-import players.fighters.Fighter;
+import items.WeaponType;
+import players.Monster;
+import players.Player;
 
-public class Knight extends Fighter {
+import java.util.Random;
 
-    private int charismaLevel;
+public class Knight extends Fighter implements IFight {
 
-    public Knight(String name, int healthPoints, Weapon weapon, int charismaLevel) {
+    private int armour;
+
+    public Knight(String name, int healthPoints, Weapon weapon) {
         super(name, healthPoints, weapon);
-        this.charismaLevel = charismaLevel;
+        this.armour = 0;
     }
 
     public int getCharismaLevel() {
-        return charismaLevel;
+        return armour;
     }
+
+    public void attack(Player player) {
+        int updatedHealth = player.getHealthPoints() - weapon.getDamage();
+        player.setHealthPoints(updatedHealth);
+    }
+
+    public void defend(Monster monster){
+        Random randomNumber = new Random();
+        armour = randomNumber.nextInt();
+        if(armour % 2 == 0){
+        }
+        else {
+            int updatedHealth = getHealthPoints() - monster.getWeapon().getDamage();
+            setHealthPoints(updatedHealth);
+        }
+    }
+
 }

@@ -1,9 +1,10 @@
 package behaviours;
 
+import players.Player;
 import spell.Spell;
 
 public interface ISpell {
 
-    public String castSpell(Spell spell);
+    public void castSpell(Spell spell, Player player);
 
 }

@@ -16,7 +16,7 @@ public class RogueTest {
     @Before
     public void before(){
         item = new Weapon(1, WeaponType.DAGGER, 2);
-        rogue = new Rogue("Lewis", 5,  (Weapon)item, 1);
+        rogue = new Rogue("Lewis", 5,  (Weapon)item);
 
     }
 
@@ -48,9 +48,5 @@ public class RogueTest {
         assertEquals(0, rogue.getInventory().size());
     }
 
-    @Test
-    public void canHitWithWeapon(){
-        assertEquals("Lewis has used a DAGGER and has hit for 2 points", rogue.inflictPain((Weapon)item));
-    }
 
 }
